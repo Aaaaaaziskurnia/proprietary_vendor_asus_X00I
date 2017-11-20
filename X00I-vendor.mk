@@ -43,19 +43,14 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00I/proprietary/bin/nvram_country:system/bin/nvram_country \
     vendor/asus/X00I/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/asus/X00I/proprietary/bin/pm-service:system/bin/pm-service \
-    vendor/asus/X00I/proprietary/bin/port-bridge:system/bin/port-bridge \
-    vendor/asus/X00I/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
-    vendor/asus/X00I/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
     vendor/asus/X00I/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/asus/X00I/proprietary/bin/radish:system/bin/radish \
     vendor/asus/X00I/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/asus/X00I/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/asus/X00I/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/asus/X00I/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/asus/X00I/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/asus/X00I/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/asus/X00I/proprietary/bin/wcnss_service:system/bin/wcnss_service \
-    vendor/asus/X00I/proprietary/bin/wfdservice:system/bin/wfdservice \
     vendor/asus/X00I/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/asus/X00I/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/asus/X00I/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
@@ -114,7 +109,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00I/proprietary/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Hdmi_cal.acdb:system/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Hdmi_cal.acdb \
     vendor/asus/X00I/proprietary/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Headset_cal.acdb:system/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Headset_cal.acdb \
     vendor/asus/X00I/proprietary/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Speaker_cal.acdb:system/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Speaker_cal.acdb \
-    vendor/asus/X00I/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
     vendor/asus/X00I/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/asus/X00I/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
     vendor/asus/X00I/proprietary/etc/camera/csidtg_chromatix.xml:system/etc/camera/csidtg_chromatix.xml \
@@ -148,6 +142,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00I/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/asus/X00I/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/asus/X00I/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
+    vendor/asus/X00I/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/asus/X00I/proprietary/etc/drc/drc_cfg_5.1.txt:system/etc/drc/drc_cfg_5.1.txt \
     vendor/asus/X00I/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
     vendor/asus/X00I/proprietary/etc/firmware/DE.o.msm8937:system/etc/firmware/DE.o.msm8937 \
@@ -217,6 +212,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00I/proprietary/etc/permissions/com.asus.weatherwidget.xml:system/etc/permissions/com.asus.weatherwidget.xml \
     vendor/asus/X00I/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/asus/X00I/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
+    vendor/asus/X00I/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/asus/X00I/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/asus/X00I/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/asus/X00I/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
@@ -225,28 +221,22 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00I/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/asus/X00I/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/asus/X00I/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/asus/X00I/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/asus/X00I/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/asus/X00I/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/asus/X00I/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/asus/X00I/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
+    vendor/asus/X00I/proprietary/etc/thermal-engine-huaqin.conf:system/etc/thermal-engine-huaqin.conf \
     vendor/asus/X00I/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/asus/X00I/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
-    vendor/asus/X00I/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/asus/X00I/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/asus/X00I/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/asus/X00I/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
-    vendor/asus/X00I/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/asus/X00I/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/asus/X00I/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
-    vendor/asus/X00I/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
-    vendor/asus/X00I/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
-    vendor/asus/X00I/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
-    vendor/asus/X00I/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
-    vendor/asus/X00I/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
+    vendor/asus/X00I/proprietary/framework/huaqin-framework.jar:system/framework/huaqin-framework.jar \
     vendor/asus/X00I/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/asus/X00I/proprietary/framework/tcmiface.jar:system/framework/tcmiface.jar \
-    vendor/asus/X00I/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
-    vendor/asus/X00I/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
+    vendor/asus/X00I/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
     vendor/asus/X00I/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/asus/X00I/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/asus/X00I/proprietary/lib/libarcsoft_face_tracking.so:system/lib/libarcsoft_face_tracking.so \
@@ -256,38 +246,40 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00I/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
     vendor/asus/X00I/proprietary/lib/libarcsoft_piczoom.so:system/lib/libarcsoft_piczoom.so \
     vendor/asus/X00I/proprietary/lib/libarcsoft_videostab.so:system/lib/libarcsoft_videostab.so \
-    vendor/asus/X00I/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/asus/X00I/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/asus/X00I/proprietary/lib/libasuscameraext_jni.so:system/lib/libasuscameraext_jni.so \
+    vendor/asus/X00I/proprietary/lib/libBeautyShotWrapper.so:system/lib/libBeautyShotWrapper.so \
+    vendor/asus/X00I/proprietary/lib/libcamera2ndk.so:system/lib/libcamera2ndk.so \
+    vendor/asus/X00I/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    vendor/asus/X00I/proprietary/lib/libcamera_defocus.so:system/lib/libcamera_defocus.so \
+    vendor/asus/X00I/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
+    vendor/asus/X00I/proprietary/lib/libcamera_pano.so:system/lib/libcamera_pano.so \
+    vendor/asus/X00I/proprietary/lib/libcameraap.so:system/lib/libcameraap.so \
+    vendor/asus/X00I/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
+    vendor/asus/X00I/proprietary/lib/libdit_beauty.so:system/lib/libdit_beauty.so \
+    vendor/asus/X00I/proprietary/lib/libhuaqin_gesture_jni.so:system/lib/libhuaqin_gesture_jni.so \
+    vendor/asus/X00I/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/asus/X00I/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/asus/X00I/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/asus/X00I/proprietary/lib/libmorpho_panorama_gp.so:system/lib/libmorpho_panorama_gp.so \
     vendor/asus/X00I/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
-    vendor/asus/X00I/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
+    vendor/asus/X00I/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/asus/X00I/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-    vendor/asus/X00I/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
+    vendor/asus/X00I/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.msm8937.so \
     vendor/asus/X00I/proprietary/lib64/hw/fingerprintfocal.default.so:system/lib64/hw/fingerprintfocal.default.so \
     vendor/asus/X00I/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
-    vendor/asus/X00I/proprietary/lib64/libOmxSwVdec.so:system/lib64/libOmxSwVdec.so \
-    vendor/asus/X00I/proprietary/lib64/libOmxSwVencMpeg4.so:system/lib64/libOmxSwVencMpeg4.so \
-    vendor/asus/X00I/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/asus/X00I/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
     vendor/asus/X00I/proprietary/lib64/libfpjni.so:system/lib64/libfpjni.so \
     vendor/asus/X00I/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
-    vendor/asus/X00I/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
-    vendor/asus/X00I/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/asus/X00I/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
+    vendor/asus/X00I/proprietary/lib64/libhuaqin_gesture_jni.so:system/lib64/libhuaqin_gesture_jni.so \
     vendor/asus/X00I/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
-    vendor/asus/X00I/proprietary/vendor/bin/RIDLClient.exe:system/vendor/bin/RIDLClient.exe \
-    vendor/asus/X00I/proprietary/vendor/bin/esepmdaemon:system/vendor/bin/esepmdaemon \
     vendor/asus/X00I/proprietary/vendor/bin/hbtp_daemon:system/vendor/bin/hbtp_daemon \
     vendor/asus/X00I/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/asus/X00I/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/asus/X00I/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
-    vendor/asus/X00I/proprietary/vendor/bin/qseeproxysampledaemon:system/vendor/bin/qseeproxysampledaemon \
     vendor/asus/X00I/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/asus/X00I/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/asus/X00I/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/asus/X00I/proprietary/vendor/etc/RIDL/GoldenLogmask.dmc:system/vendor/etc/RIDL/GoldenLogmask.dmc \
-    vendor/asus/X00I/proprietary/vendor/etc/RIDL/OTA-Logs.dmc:system/vendor/etc/RIDL/OTA-Logs.dmc \
-    vendor/asus/X00I/proprietary/vendor/etc/RIDL/RIDL.db:system/vendor/etc/RIDL/RIDL.db \
-    vendor/asus/X00I/proprietary/vendor/etc/RIDL/qdss.cfg:system/vendor/etc/RIDL/qdss.cfg \
+    vendor/asus/X00I/proprietary/vendor/etc/style.cng:system/vendor/etc/style.cng \
     vendor/asus/X00I/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/asus/X00I/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/asus/X00I/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -303,25 +295,15 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00I/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/asus/X00I/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/asus/X00I/proprietary/vendor/lib/hw/activity_recognition.msm8937.so:system/vendor/lib/hw/activity_recognition.msm8937.so \
-    vendor/asus/X00I/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/asus/X00I/proprietary/vendor/lib/hw/gatekeeper.msm8937.so:system/vendor/lib/hw/gatekeeper.msm8937.so \
     vendor/asus/X00I/proprietary/vendor/lib/hw/keystore.msm8937.so:system/vendor/lib/hw/keystore.msm8937.so \
     vendor/asus/X00I/proprietary/vendor/lib/hw/sound_trigger.primary.msm8937.so:system/vendor/lib/hw/sound_trigger.primary.msm8937.so \
     vendor/asus/X00I/proprietary/vendor/lib/hw/vulkan.msm8937.so:system/vendor/lib/hw/vulkan.msm8937.so \
-    vendor/asus/X00I/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/asus/X00I/proprietary/vendor/lib/libAlacSwDec.so:system/vendor/lib/libAlacSwDec.so \
     vendor/asus/X00I/proprietary/vendor/lib/libApeSwDec.so:system/vendor/lib/libApeSwDec.so \
     vendor/asus/X00I/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/asus/X00I/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libFIDOKeyProvisioning.so:system/vendor/lib/libFIDOKeyProvisioning.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libFidoCrypto.so:system/vendor/lib/libFidoCrypto.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libFidoCryptoJNI.so:system/vendor/lib/libFidoCryptoJNI.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libFidoSuiJNI.so:system/vendor/lib/libFidoSuiJNI.so \
     vendor/asus/X00I/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libGPTEE.so:system/vendor/lib/libGPTEE.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libGPreqcancel.so:system/vendor/lib/libGPreqcancel.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libGPreqcancel_svc.so:system/vendor/lib/libGPreqcancel_svc.so \
     vendor/asus/X00I/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/asus/X00I/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/asus/X00I/proprietary/vendor/lib/libOmxAlacDec.so:system/vendor/lib/libOmxAlacDec.so \
@@ -332,20 +314,14 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00I/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/asus/X00I/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
     vendor/asus/X00I/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libOmxVideoDSMode.so:system/vendor/lib/libOmxVideoDSMode.so \
     vendor/asus/X00I/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/asus/X00I/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/asus/X00I/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/asus/X00I/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
     vendor/asus/X00I/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libSampleAuthJNI.so:system/vendor/lib/libSampleAuthJNI.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libSampleExtAuthJNI.so:system/vendor/lib/libSampleExtAuthJNI.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libSecureExtAuthJNI.so:system/vendor/lib/libSecureExtAuthJNI.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libSecureSampleAuthJNI.so:system/vendor/lib/libSecureSampleAuthJNI.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/asus/X00I/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/asus/X00I/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/asus/X00I/proprietary/vendor/lib/lib_rsu.so:system/vendor/lib/lib_rsu.so \
     vendor/asus/X00I/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/asus/X00I/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/asus/X00I/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
@@ -361,7 +337,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00I/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/asus/X00I/proprietary/vendor/lib/libadsp_default_listener.so:system/vendor/lib/libadsp_default_listener.so \
     vendor/asus/X00I/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/asus/X00I/proprietary/vendor/lib/libarcsoft_arc3dnr_intf.so:system/vendor/lib/libarcsoft_arc3dnr_intf.so \
     vendor/asus/X00I/proprietary/vendor/lib/libarcsoft_arcpiczoom_intf.so:system/vendor/lib/libarcsoft_arcpiczoom_intf.so \
     vendor/asus/X00I/proprietary/vendor/lib/libarcsoft_arcshdr_intf.so:system/vendor/lib/libarcsoft_arcshdr_intf.so \
@@ -371,7 +346,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00I/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/asus/X00I/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/asus/X00I/proprietary/vendor/lib/libaudiodevarb.so:system/vendor/lib/libaudiodevarb.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libaudioparsers.so:system/vendor/lib/libaudioparsers.so \
     vendor/asus/X00I/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/asus/X00I/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/asus/X00I/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
@@ -648,7 +622,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00I/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/asus/X00I/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
     vendor/asus/X00I/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/asus/X00I/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/asus/X00I/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/asus/X00I/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
@@ -657,15 +630,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00I/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
     vendor/asus/X00I/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
     vendor/asus/X00I/proprietary/vendor/lib/libdrc.so:system/vendor/lib/libdrc.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/asus/X00I/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/asus/X00I/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/asus/X00I/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/asus/X00I/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/asus/X00I/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/asus/X00I/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/asus/X00I/proprietary/vendor/lib/libhbtpclient.so:system/vendor/lib/libhbtpclient.so \
     vendor/asus/X00I/proprietary/vendor/lib/libhbtpdsp.so:system/vendor/lib/libhbtpdsp.so \
@@ -673,27 +642,18 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00I/proprietary/vendor/lib/libhbtpjni.so:system/vendor/lib/libhbtpjni.so \
     vendor/asus/X00I/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/asus/X00I/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/asus/X00I/proprietary/vendor/lib/libjni_dualcamera.so:system/vendor/lib/libjni_dualcamera.so \
     vendor/asus/X00I/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/asus/X00I/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/asus/X00I/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
-    vendor/asus/X00I/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/asus/X00I/proprietary/vendor/lib/libllvd_smore.so:system/vendor/lib/libllvd_smore.so \
     vendor/asus/X00I/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/asus/X00I/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/asus/X00I/proprietary/vendor/lib/libllvm-qgl.so:system/vendor/lib/libllvm-qgl.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
-    vendor/asus/X00I/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/asus/X00I/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
-    vendor/asus/X00I/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
-    vendor/asus/X00I/proprietary/vendor/lib/liblowi_wifihal.so:system/vendor/lib/liblowi_wifihal.so \
-    vendor/asus/X00I/proprietary/vendor/lib/liblowi_wifihal_nl.so:system/vendor/lib/liblowi_wifihal_nl.so \
-    vendor/asus/X00I/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/asus/X00I/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libmdsprpc.so:system/vendor/lib/libmdsprpc.so \
     vendor/asus/X00I/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/asus/X00I/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
+    vendor/asus/X00I/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
     vendor/asus/X00I/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/asus/X00I/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
     vendor/asus/X00I/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
@@ -797,38 +757,21 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00I/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/asus/X00I/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:system/vendor/lib/libmmcamera_tuning_lookup.so \
     vendor/asus/X00I/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libmmhttpstack.so:system/vendor/lib/libmmhttpstack.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libmmi.so:system/vendor/lib/libmmi.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libmmiipstreammmihttp.so:system/vendor/lib/libmmiipstreammmihttp.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libmmipstreamaal.so:system/vendor/lib/libmmipstreamaal.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libmmipstreamnetwork.so:system/vendor/lib/libmmipstreamnetwork.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libmmipstreamsourcehttp.so:system/vendor/lib/libmmipstreamsourcehttp.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
     vendor/asus/X00I/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/asus/X00I/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libmmparser_lite.so:system/vendor/lib/libmmparser_lite.so \
     vendor/asus/X00I/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/asus/X00I/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libmmrtpencoder.so:system/vendor/lib/libmmrtpencoder.so \
     vendor/asus/X00I/proprietary/vendor/lib/libmmsw_detail_enhancement.so:system/vendor/lib/libmmsw_detail_enhancement.so \
     vendor/asus/X00I/proprietary/vendor/lib/libmmsw_math.so:system/vendor/lib/libmmsw_math.so \
     vendor/asus/X00I/proprietary/vendor/lib/libmmsw_opencl.so:system/vendor/lib/libmmsw_opencl.so \
     vendor/asus/X00I/proprietary/vendor/lib/libmmsw_platform.so:system/vendor/lib/libmmsw_platform.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libmmwfdinterface.so:system/vendor/lib/libmmwfdinterface.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libmmwfdsinkinterface.so:system/vendor/lib/libmmwfdsinkinterface.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libmmwfdsrcinterface.so:system/vendor/lib/libmmwfdsrcinterface.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libomx-dts.so:system/vendor/lib/libomx-dts.so \
     vendor/asus/X00I/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/asus/X00I/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libpvr.so:system/vendor/lib/libpvr.so \
     vendor/asus/X00I/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/asus/X00I/proprietary/vendor/lib/libqcmaputils.so:system/vendor/lib/libqcmaputils.so \
     vendor/asus/X00I/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
     vendor/asus/X00I/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/asus/X00I/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libqisl.so:system/vendor/lib/libqisl.so \
     vendor/asus/X00I/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/asus/X00I/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/asus/X00I/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
@@ -842,108 +785,33 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00I/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/asus/X00I/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
     vendor/asus/X00I/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libqti-wl.so:system/vendor/lib/libqti-wl.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
     vendor/asus/X00I/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libremosaic_daemon.so:system/vendor/lib/libremosaic_daemon.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libril-qc-ltedirectdisc.so:system/vendor/lib/libril-qc-ltedirectdisc.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
-    vendor/asus/X00I/proprietary/vendor/lib/librilqmiservices.so:system/vendor/lib/librilqmiservices.so \
-    vendor/asus/X00I/proprietary/vendor/lib/librmp.so:system/vendor/lib/librmp.so \
-    vendor/asus/X00I/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/asus/X00I/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/asus/X00I/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+    vendor/asus/X00I/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
+    vendor/asus/X00I/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+    vendor/asus/X00I/proprietary/vendor/lib/libscalar.so:system/vendor/lib/libscalar.so \
     vendor/asus/X00I/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libscveBlobDescriptor.so:system/vendor/lib/libscveBlobDescriptor.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libscveBlobDescriptor_stub.so:system/vendor/lib/libscveBlobDescriptor_stub.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libscveCleverCapture.so:system/vendor/lib/libscveCleverCapture.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libscveCleverCapture_stub.so:system/vendor/lib/libscveCleverCapture_stub.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libscveCommon.so:system/vendor/lib/libscveCommon.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libscveCommon_stub.so:system/vendor/lib/libscveCommon_stub.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libscveFaceRecognition.so:system/vendor/lib/libscveFaceRecognition.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libscveImageCloning.so:system/vendor/lib/libscveImageCloning.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libscveImageCorrection.so:system/vendor/lib/libscveImageCorrection.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libscveImageRemoval.so:system/vendor/lib/libscveImageRemoval.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libscveMotionVector.so:system/vendor/lib/libscveMotionVector.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libscveObjectMatting.so:system/vendor/lib/libscveObjectMatting.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libscveObjectMatting_stub.so:system/vendor/lib/libscveObjectMatting_stub.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libscveObjectSegmentation.so:system/vendor/lib/libscveObjectSegmentation.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libscveObjectSegmentation_stub.so:system/vendor/lib/libscveObjectSegmentation_stub.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libscveObjectTracker.so:system/vendor/lib/libscveObjectTracker.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libscveObjectTracker_stub.so:system/vendor/lib/libscveObjectTracker_stub.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libscvePanorama.so:system/vendor/lib/libscvePanorama.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libscvePanorama_lite.so:system/vendor/lib/libscvePanorama_lite.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libscveTextReco.so:system/vendor/lib/libscveTextReco.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libscveTextRecoPostProcessing.so:system/vendor/lib/libscveTextRecoPostProcessing.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libscveTextReco_stub.so:system/vendor/lib/libscveTextReco_stub.so \
     vendor/asus/X00I/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libsdm-disp-apis.so:system/vendor/lib/libsdm-disp-apis.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
+    vendor/asus/X00I/proprietary/vendor/lib/libsdm-color.so:system/vendor/lib/libsdm-color.so \
+    vendor/asus/X00I/proprietary/vendor/lib/libsdm-diag.so:system/vendor/lib/libsdm-diag.so \
+    vendor/asus/X00I/proprietary/vendor/lib/libsdmextension.so:system/vendor/lib/libsdmextension.so \
     vendor/asus/X00I/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/asus/X00I/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/asus/X00I/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
     vendor/asus/X00I/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/asus/X00I/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libsregex.so:system/vendor/lib/libsregex.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/asus/X00I/proprietary/vendor/lib/libsurround_3mic_proc.so:system/vendor/lib/libsurround_3mic_proc.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libtar.so:system/vendor/lib/libtar.so \
     vendor/asus/X00I/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/asus/X00I/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/asus/X00I/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/asus/X00I/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/asus/X00I/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libwfdavenhancements.so:system/vendor/lib/libwfdavenhancements.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libwfdhdcpcp.so:system/vendor/lib/libwfdhdcpcp.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libwfdmmservice.so:system/vendor/lib/libwfdmmservice.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libwfdmmsink.so:system/vendor/lib/libwfdmmsink.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libwfdmmsrc.so:system/vendor/lib/libwfdmmsrc.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libwfdnative.so:system/vendor/lib/libwfdnative.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libwfdrtsp.so:system/vendor/lib/libwfdrtsp.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libwfdservice.so:system/vendor/lib/libwfdservice.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libwfdsm.so:system/vendor/lib/libwfdsm.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libwfduibcinterface.so:system/vendor/lib/libwfduibcinterface.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libwfduibcsink.so:system/vendor/lib/libwfduibcsink.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libwfduibcsinkinterface.so:system/vendor/lib/libwfduibcsinkinterface.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libwfduibcsrc.so:system/vendor/lib/libwfduibcsrc.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libwfduibcsrcinterface.so:system/vendor/lib/libwfduibcsrcinterface.so \
     vendor/asus/X00I/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
     vendor/asus/X00I/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/asus/X00I/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/asus/X00I/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
-    vendor/asus/X00I/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/asus/X00I/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/asus/X00I/proprietary/vendor/lib/mmi_audio.so:system/vendor/lib/mmi_audio.so \
-    vendor/asus/X00I/proprietary/vendor/lib/mmi_battery.so:system/vendor/lib/mmi_battery.so \
-    vendor/asus/X00I/proprietary/vendor/lib/mmi_bluetooth.so:system/vendor/lib/mmi_bluetooth.so \
-    vendor/asus/X00I/proprietary/vendor/lib/mmi_camera.so:system/vendor/lib/mmi_camera.so \
-    vendor/asus/X00I/proprietary/vendor/lib/mmi_cpu.so:system/vendor/lib/mmi_cpu.so \
-    vendor/asus/X00I/proprietary/vendor/lib/mmi_flashlight.so:system/vendor/lib/mmi_flashlight.so \
-    vendor/asus/X00I/proprietary/vendor/lib/mmi_fm.so:system/vendor/lib/mmi_fm.so \
-    vendor/asus/X00I/proprietary/vendor/lib/mmi_gps.so:system/vendor/lib/mmi_gps.so \
-    vendor/asus/X00I/proprietary/vendor/lib/mmi_headset.so:system/vendor/lib/mmi_headset.so \
-    vendor/asus/X00I/proprietary/vendor/lib/mmi_key.so:system/vendor/lib/mmi_key.so \
-    vendor/asus/X00I/proprietary/vendor/lib/mmi_lcd.so:system/vendor/lib/mmi_lcd.so \
-    vendor/asus/X00I/proprietary/vendor/lib/mmi_light.so:system/vendor/lib/mmi_light.so \
-    vendor/asus/X00I/proprietary/vendor/lib/mmi_memory.so:system/vendor/lib/mmi_memory.so \
-    vendor/asus/X00I/proprietary/vendor/lib/mmi_nfc.so:system/vendor/lib/mmi_nfc.so \
-    vendor/asus/X00I/proprietary/vendor/lib/mmi_sensor.so:system/vendor/lib/mmi_sensor.so \
-    vendor/asus/X00I/proprietary/vendor/lib/mmi_sim.so:system/vendor/lib/mmi_sim.so \
-    vendor/asus/X00I/proprietary/vendor/lib/mmi_storage.so:system/vendor/lib/mmi_storage.so \
-    vendor/asus/X00I/proprietary/vendor/lib/mmi_sysinfo.so:system/vendor/lib/mmi_sysinfo.so \
-    vendor/asus/X00I/proprietary/vendor/lib/mmi_touch.so:system/vendor/lib/mmi_touch.so \
-    vendor/asus/X00I/proprietary/vendor/lib/mmi_vibrator.so:system/vendor/lib/mmi_vibrator.so \
-    vendor/asus/X00I/proprietary/vendor/lib/mmi_wifi.so:system/vendor/lib/mmi_wifi.so \
     vendor/asus/X00I/proprietary/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so:system/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so \
     vendor/asus/X00I/proprietary/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so:system/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so \
     vendor/asus/X00I/proprietary/vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so:system/vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so \
@@ -1005,45 +873,25 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00I/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
     vendor/asus/X00I/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
     vendor/asus/X00I/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libAlacSwDec.so:system/vendor/lib64/libAlacSwDec.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libChamomilePA.so:system/vendor/lib64/libChamomilePA.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libCommandSvc.so:system/vendor/lib64/libCommandSvc.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libExtendedExtractor.so:system/vendor/lib64/libExtendedExtractor.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libFIDOKeyProvisioning.so:system/vendor/lib64/libFIDOKeyProvisioning.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libFidoCrypto.so:system/vendor/lib64/libFidoCrypto.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libFidoCryptoJNI.so:system/vendor/lib64/libFidoCryptoJNI.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libFidoSuiJNI.so:system/vendor/lib64/libFidoSuiJNI.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libFileMux.so:system/vendor/lib64/libFileMux.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libGPTEE.so:system/vendor/lib64/libGPTEE.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libI420colorconvert.so:system/vendor/lib64/libI420colorconvert.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libOmxAlacDec.so:system/vendor/lib64/libOmxAlacDec.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libOmxAlacDecSw.so:system/vendor/lib64/libOmxAlacDecSw.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:system/vendor/lib64/libOmxAmrwbplusDec.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libOmxApeDec.so:system/vendor/lib64/libOmxApeDec.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libOmxApeDecSw.so:system/vendor/lib64/libOmxApeDecSw.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libOmxEvrcDec.so:system/vendor/lib64/libOmxEvrcDec.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libOmxMux.so:system/vendor/lib64/libOmxMux.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libOmxQcelp13Dec.so:system/vendor/lib64/libOmxQcelp13Dec.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libOmxWmaDec.so:system/vendor/lib64/libOmxWmaDec.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libSampleAuthJNI.so:system/vendor/lib64/libSampleAuthJNI.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libSampleExtAuthJNI.so:system/vendor/lib64/libSampleExtAuthJNI.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libSecureExtAuthJNI.so:system/vendor/lib64/libSecureExtAuthJNI.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libSecureSampleAuthJNI.so:system/vendor/lib64/libSecureSampleAuthJNI.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libSubSystemShutdown.so:system/vendor/lib64/libSubSystemShutdown.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
+    vendor/asus/X00I/proprietary/vendor/lib64/lib_rsu.so:system/vendor/lib64/lib_rsu.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
@@ -1059,9 +907,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00I/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libaudiodevarb.so:system/vendor/lib64/libaudiodevarb.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libaudioparsers.so:system/vendor/lib64/libaudioparsers.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
+    vendor/asus/X00I/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
+    vendor/asus/X00I/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libc2d30-a5xx.so:system/vendor/lib64/libc2d30-a5xx.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
@@ -1069,6 +918,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00I/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
+    vendor/asus/X00I/proprietary/vendor/lib64/libdatactrl.so:system/vendor/lib64/libdatactrl.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
@@ -1104,6 +954,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00I/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
+    vendor/asus/X00I/proprietary/vendor/lib64/libloc_externalDr.so:system/vendor/lib64/libloc_externalDr.so \
     vendor/asus/X00I/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     vendor/asus/X00I/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
     vendor/asus/X00I/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
@@ -1111,41 +962,14 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00I/proprietary/vendor/lib64/liblowi_wifihal_nl.so:system/vendor/lib64/liblowi_wifihal_nl.so \
     vendor/asus/X00I/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libmdsprpc.so:system/vendor/lib64/libmdsprpc.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libmm-hdcpmgr.so:system/vendor/lib64/libmm-hdcpmgr.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libmmQSM.so:system/vendor/lib64/libmmQSM.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:system/vendor/lib64/libmmcamera2_frame_algorithm.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libmmcamera2_is.so:system/vendor/lib64/libmmcamera2_is.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:system/vendor/lib64/libmmcamera2_q3a_core.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libmmcamera_cac3_lib.so:system/vendor/lib64/libmmcamera_cac3_lib.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libmmcamera_dbg.so:system/vendor/lib64/libmmcamera_dbg.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:system/vendor/lib64/libmmcamera_tintless_algo.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libmmhttpstack.so:system/vendor/lib64/libmmhttpstack.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libmmiipstreammmihttp.so:system/vendor/lib64/libmmiipstreammmihttp.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libmmipstreamaal.so:system/vendor/lib64/libmmipstreamaal.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libmmipstreamnetwork.so:system/vendor/lib64/libmmipstreamnetwork.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libmmipstreamsourcehttp.so:system/vendor/lib64/libmmipstreamsourcehttp.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libmmipstreamutils.so:system/vendor/lib64/libmmipstreamutils.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libmmparser.so:system/vendor/lib64/libmmparser.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libmmparser_lite.so:system/vendor/lib64/libmmparser_lite.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libmmrtpdecoder.so:system/vendor/lib64/libmmrtpdecoder.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libmmrtpencoder.so:system/vendor/lib64/libmmrtpencoder.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libmmsw_detail_enhancement.so:system/vendor/lib64/libmmsw_detail_enhancement.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libmmsw_math.so:system/vendor/lib64/libmmsw_math.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libmmsw_opencl.so:system/vendor/lib64/libmmsw_opencl.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libmmsw_platform.so:system/vendor/lib64/libmmsw_platform.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libmmwfdinterface.so:system/vendor/lib64/libmmwfdinterface.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libmmwfdsinkinterface.so:system/vendor/lib64/libmmwfdsinkinterface.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libmmwfdsrcinterface.so:system/vendor/lib64/libmmwfdsrcinterface.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libpvr.so:system/vendor/lib64/libpvr.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
@@ -1162,7 +986,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00I/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libqti-wl.so:system/vendor/lib64/libqti-wl.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libqti_performance.so:system/vendor/lib64/libqti_performance.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/asus/X00I/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
@@ -1170,38 +993,16 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00I/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
     vendor/asus/X00I/proprietary/vendor/lib64/librilqmiservices.so:system/vendor/lib64/librilqmiservices.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/librmp.so:system/vendor/lib64/librmp.so \
     vendor/asus/X00I/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
     vendor/asus/X00I/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
     vendor/asus/X00I/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
+    vendor/asus/X00I/proprietary/vendor/lib64/libsc-a2xx.so:system/vendor/lib64/libsc-a2xx.so \
+    vendor/asus/X00I/proprietary/vendor/lib64/libsc-a3xx.so:system/vendor/lib64/libsc-a3xx.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libscalar.so:system/vendor/lib64/libscalar.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libscveBlobDescriptor.so:system/vendor/lib64/libscveBlobDescriptor.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libscveBlobDescriptor_stub.so:system/vendor/lib64/libscveBlobDescriptor_stub.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libscveCleverCapture.so:system/vendor/lib64/libscveCleverCapture.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libscveCleverCapture_stub.so:system/vendor/lib64/libscveCleverCapture_stub.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libscveCommon.so:system/vendor/lib64/libscveCommon.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libscveCommon_stub.so:system/vendor/lib64/libscveCommon_stub.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libscveFaceRecognition.so:system/vendor/lib64/libscveFaceRecognition.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libscveImageCloning.so:system/vendor/lib64/libscveImageCloning.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libscveImageCorrection.so:system/vendor/lib64/libscveImageCorrection.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libscveImageRemoval.so:system/vendor/lib64/libscveImageRemoval.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libscveMotionVector.so:system/vendor/lib64/libscveMotionVector.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libscveObjectMatting.so:system/vendor/lib64/libscveObjectMatting.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libscveObjectMatting_stub.so:system/vendor/lib64/libscveObjectMatting_stub.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libscveObjectSegmentation.so:system/vendor/lib64/libscveObjectSegmentation.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libscveObjectSegmentation_stub.so:system/vendor/lib64/libscveObjectSegmentation_stub.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libscveObjectTracker.so:system/vendor/lib64/libscveObjectTracker.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libscveObjectTracker_stub.so:system/vendor/lib64/libscveObjectTracker_stub.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libscvePanorama.so:system/vendor/lib64/libscvePanorama.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libscvePanorama_lite.so:system/vendor/lib64/libscvePanorama_lite.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libscveTextReco.so:system/vendor/lib64/libscveTextReco.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libscveTextRecoPostProcessing.so:system/vendor/lib64/libscveTextRecoPostProcessing.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libscveTextReco_stub.so:system/vendor/lib64/libscveTextReco_stub.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libsdm-color.so:system/vendor/lib64/libsdm-color.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libsdm-diag.so:system/vendor/lib64/libsdm-diag.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libsdm-disp-apis.so:system/vendor/lib64/libsdm-disp-apis.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
@@ -1219,47 +1020,12 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00I/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libwfdavenhancements.so:system/vendor/lib64/libwfdavenhancements.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libwfdcommonutils.so:system/vendor/lib64/libwfdcommonutils.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libwfdhdcpcp.so:system/vendor/lib64/libwfdhdcpcp.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libwfdmmservice.so:system/vendor/lib64/libwfdmmservice.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libwfdmmsink.so:system/vendor/lib64/libwfdmmsink.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libwfdmmsrc.so:system/vendor/lib64/libwfdmmsrc.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libwfdnative.so:system/vendor/lib64/libwfdnative.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libwfdrtsp.so:system/vendor/lib64/libwfdrtsp.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libwfdservice.so:system/vendor/lib64/libwfdservice.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libwfdsm.so:system/vendor/lib64/libwfdsm.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libwfduibcinterface.so:system/vendor/lib64/libwfduibcinterface.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libwfduibcsink.so:system/vendor/lib64/libwfduibcsink.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libwfduibcsinkinterface.so:system/vendor/lib64/libwfduibcsinkinterface.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libwfduibcsrc.so:system/vendor/lib64/libwfduibcsrc.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/libwfduibcsrcinterface.so:system/vendor/lib64/libwfduibcsrcinterface.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/asus/X00I/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/mmi_audio.so:system/vendor/lib64/mmi_audio.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/mmi_battery.so:system/vendor/lib64/mmi_battery.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/mmi_bluetooth.so:system/vendor/lib64/mmi_bluetooth.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/mmi_cpu.so:system/vendor/lib64/mmi_cpu.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/mmi_flashlight.so:system/vendor/lib64/mmi_flashlight.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/mmi_fm.so:system/vendor/lib64/mmi_fm.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/mmi_gps.so:system/vendor/lib64/mmi_gps.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/mmi_headset.so:system/vendor/lib64/mmi_headset.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/mmi_key.so:system/vendor/lib64/mmi_key.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/mmi_lcd.so:system/vendor/lib64/mmi_lcd.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/mmi_light.so:system/vendor/lib64/mmi_light.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/mmi_memory.so:system/vendor/lib64/mmi_memory.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/mmi_nfc.so:system/vendor/lib64/mmi_nfc.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/mmi_sensor.so:system/vendor/lib64/mmi_sensor.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/mmi_sim.so:system/vendor/lib64/mmi_sim.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/mmi_storage.so:system/vendor/lib64/mmi_storage.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/mmi_sysinfo.so:system/vendor/lib64/mmi_sysinfo.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/mmi_touch.so:system/vendor/lib64/mmi_touch.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/mmi_vibrator.so:system/vendor/lib64/mmi_vibrator.so \
-    vendor/asus/X00I/proprietary/vendor/lib64/mmi_wifi.so:system/vendor/lib64/mmi_wifi.so \
     vendor/asus/X00I/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/asus/X00I/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/asus/X00I/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
@@ -1268,21 +1034,28 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00I/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
+    libloc_api_v02 \
+    libloc_ds_api \
+    libsdm-disp-apis \
     libtime_genoff \
     libts_detected_face_hal \
     libts_face_beautify_hal \
     QtiTelephonyService \
     TimeService \
     datastatusnotification \
-    embms \
     fastdormancy \
     shutdownlistener \
     CNEService \
     QtiTetherService \
     com.qualcomm.location \
     qcrilmsgtunnel \
-    colorservice \
     ims \
     imssettings \
+    QtiTelephonyServicelibrary \
     com.qti.location.sdk \
-    qcrilhook
+    com.qualcomm.location.vzw_library \
+    embmslibrary \
+    imscmlibrary \
+    izat.xt.srv \
+    qcrilhook \
+    qti-telephony-common
