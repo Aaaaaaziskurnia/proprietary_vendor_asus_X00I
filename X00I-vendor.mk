@@ -22,6 +22,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00I/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/asus/X00I/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/asus/X00I/proprietary/bin/dpmd:system/bin/dpmd \
+    vendor/asus/X00I/proprietary/bin/fmconfig:system/bin/fmconfig \
+    vendor/asus/X00I/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/asus/X00I/proprietary/bin/fstman:system/bin/fstman \
     vendor/asus/X00I/proprietary/bin/getpersistlog:system/bin/getpersistlog \
     vendor/asus/X00I/proprietary/bin/gx_fpd:system/bin/gx_fpd \
