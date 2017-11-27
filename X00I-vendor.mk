@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00I/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/asus/X00I/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/asus/X00I/proprietary/bin/dpmd:system/bin/dpmd \
+    vendor/asus/X00I/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/asus/X00I/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/asus/X00I/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/asus/X00I/proprietary/bin/fstman:system/bin/fstman \
@@ -266,7 +267,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00I/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/asus/X00I/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/asus/X00I/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-    vendor/asus/X00I/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.msm8937.so \
+    vendor/asus/X00I/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/asus/X00I/proprietary/lib64/hw/fingerprintfocal.default.so:system/lib64/hw/fingerprintfocal.default.so \
     vendor/asus/X00I/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
     vendor/asus/X00I/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
